@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Profile;
 
 import br.com.lginfo.course.entities.User;
 import br.com.lginfo.course.repositories.UserRepository;
-
+ 
 @Configuration
 @Profile("test") 
 public class TestConfig implements CommandLineRunner{
